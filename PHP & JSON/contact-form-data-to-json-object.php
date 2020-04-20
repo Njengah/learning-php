@@ -1,68 +1,69 @@
-<html> 
+<!DOCTYPE html>
 
-<head>
-    <style>
+<html lang="en">
 
+    <head>
+        <style>
             /* Add a background color to body */ 
             body{    
-             background:radial-gradient(circle at top left, rgba(233, 248, 255, 1), rgba(233, 248, 255, 0)) ;  
+                background:radial-gradient(circle at top left, rgba(233, 248, 255, 1), rgba(233, 248, 255, 0)) ;  
             }
 
-            /* Add a background color and some padding around the form container */
-            .form-container {
-            border-radius: 5px;
-            background-color: #cfd9d9;
-            padding: 20px;
-            max-width: 400px;
-            margin-top: 50px;
-            margin-right: auto;
-            margin-bottom: 50px;
-            margin-left: auto;
-            font-family: arial;
-            border : solid 1px #ddd; 
-        }
-
-        /* Add a color and some padding around the contact form heading */ 
-        .wrap h3 {    
-            margin: 0 auto; 
-            font-family: arial; 
-            max-width: 400px; 
-            color: #555; 
-            padding-top:20px; 
-        }
-
-            /* Style inputs with type="text", select elements and textareas */
-            input[type=text], select, textarea {
-            width: 100%; 
-            padding: 12px; 
-            border: 1px solid #ccc; 
-            border-radius: 4px; 
-            box-sizing: border-box; 
-            margin-top: 6px; 
-            margin-bottom: 16px; 
-            resize: vertical 
-            font-family: arial;
-            font-size: 14px;
+                /* Add a background color and some padding around the form container */
+                .form-container {
+                border-radius: 5px;
+                background-color: #cfd9d9;
+                padding: 20px;
+                max-width: 400px;
+                margin-top: 50px;
+                margin-right: auto;
+                margin-bottom: 50px;
+                margin-left: auto;
+                font-family: arial;
+                border : solid 1px #ddd; 
             }
 
-            /* Style the submit button with a specific background color etc */
-            #btn {
-            background-color: #148C8C;
-            color: white;
-            padding: 12px 32px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
+            /* Add a color and some padding around the contact form heading */ 
+            .wrap h3 {    
+                margin: 0 auto; 
+                font-family: arial; 
+                max-width: 400px; 
+                color: #555; 
+                padding-top:20px; 
             }
 
-            /* When moving the mouse over the submit button, add a darker green color */
-            #btn:hover {
-            background-color: #333;
-            }
- 
-    </style> 
+                /* Style inputs with type="text", select elements and textareas */
+                input[type=text], select, textarea {
+                width: 100%; 
+                padding: 12px; 
+                border: 1px solid #ccc; 
+                border-radius: 4px; 
+                box-sizing: border-box; 
+                margin-top: 6px; 
+                margin-bottom: 16px; 
+                resize: vertical 
+                font-family: arial;
+                font-size: 14px;
+                }
 
- </head> 
+                /* Style the submit button with a specific background color etc */
+                #btn {
+                background-color: #148C8C;
+                color: white;
+                padding: 12px 32px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                }
+
+                /* When moving the mouse over the submit button, add a darker green color */
+                #btn:hover {
+                background-color: #333;
+                }
+    
+        </style> 
+
+    </head> 
 
 <body> 
 
