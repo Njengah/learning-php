@@ -93,12 +93,11 @@
 
         </form>
 
-        <div id="msg">
-                <pre></pre>
-        
-         </div>
-
     </div> 
+
+    <div id="msg">
+                <pre></pre>
+    </div>
 
 </div> 
 
@@ -138,6 +137,19 @@
         document.addEventListener('DOMContentLoaded', ()=>{
             document.getElementById('btn').addEventListener('click', addContactData);
         });
+
+
+      // Post the stored data to the process-data.php file for further processing and sending to MySQL database 
+      
+        var storedData = localStorage.getItem('MyContactData');
+
+        $.ajax({  
+        type: "POST",  
+            url: "process-data.php",  
+            data: storedData;
+        });
+
+
     </script>
 
 </body>
